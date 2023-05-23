@@ -1,0 +1,24 @@
+body {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll ;
+}
+.caxa {
+    background: #AD0000;
+    position: relative;
+}
+.logo {
+    padding: 50px 20px;
+    font-size: 50px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+    font-size: 40px;
+}
+nav ul {
+    right: 0px;
+    text-align: end;
+    margin: -90px 50px;
+    position: absolute;
+}
