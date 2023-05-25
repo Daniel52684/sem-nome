@@ -22,3 +22,30 @@ nav ul {
     margin: -90px 50px;
     position: absolute;
 }
+.banner {
+    width: 100%;
+
+}
+.balaco {
+    text-align: center;
+    font-size: 50px;
+}
+.balaco1 {
+    text-align: center;
+    font-size: 65px; 
+}
+.caxa1 {
+    background: #AD0000;
+}
+.rissoto {
+    width: 250px;
+    border: #000000 solid 3px;
+    border-radius: 15px;
+}
+header ul li {
+    display: inline;
+}
+header ul {
+    width: 940px;
+    margin: 0 auto;
+}
