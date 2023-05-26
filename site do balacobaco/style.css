@@ -42,10 +42,6 @@ nav ul {
     border: #000000 solid 3px;
     border-radius: 15px;
 }
-header ul li {
+.pratos ul li {
     display: inline;
-}
-header ul {
-    width: 940px;
-    margin: 0 auto;
 }
