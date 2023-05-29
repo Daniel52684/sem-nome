@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: auto;
     overflow-y: scroll ;
+    background: #c0a3a3;
 }
 .caxa {
     background: #AD0000;
@@ -11,12 +12,12 @@ body {
     padding: 50px 20px;
     font-size: 50px;
 }
-nav ul li {
+.caxa nav ul li {
     display: inline;
-    margin: 0 50px;
+    margin: 0 30px;
     font-size: 40px;
 }
-nav ul {
+.caxa nav ul {
     right: 0px;
     text-align: end;
     margin: -90px 50px;
@@ -35,6 +36,7 @@ nav ul {
 }
 .caxa1 {
     background: #AD0000;
+    padding: 10px;
 }
 .rissoto {
     width: 12%;
@@ -42,15 +44,20 @@ nav ul {
     border-radius: 15px;
 }
 .pratos nav ul li {
-    width: 230px;
-    display: inline;
+    display: inline;   
+    font-size: 40px;
+}
+.pratos nav ul {
+    text-align: center;
+    margin: 20px 20px;
 }
 .titulo {
     padding: 50px 20px;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
 }
 .paragrafo {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    
 }
