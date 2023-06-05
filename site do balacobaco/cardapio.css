@@ -29,5 +29,25 @@ body {
     font-size: 50px;
 }
 .topicos {
-    
+    font-size: 29px;
+    text-align: left;
+}
+.topicos1 {
+    padding: 15px 20px;
+    text-align: left;
+}
+.imgs {
+    width: 10%;
+    border: #000000 solid 3px;
+    border-radius: 15px;
+}
+.nms {
+    font-size: 20px;
+    padding: 0 45px;
+    display: inline;   
+}
+.nms1 {
+    font-size: 20px;
+    padding: 10px 40px;
+    display: inline;
 }
