@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+    background: #c0a3a3;
+}
+.caxa {
+    background: #AD0000;
+    position: relative;
+}
+.logo {
+    padding: 50px 20px;
+    font-size: 50px;
+}
+.caxa nav ul li {
+    display: inline;
+    margin: 0 30px;
+    font-size: 40px;
+}
+.caxa nav ul {
+    right: 0px;
+    text-align: end;
+    margin: -90px 50px;
+    position: absolute;
+}
+.link {
+    border: #000000 solid 3px;
+    background: #c0a3a3;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label {
+    display: block;
+}
+form input {
+    display: block;
+}
