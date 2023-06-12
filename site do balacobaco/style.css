@@ -63,4 +63,7 @@ body {
 .link {
     border: #000000 solid 3px;
     background: #c0a3a3;
+    text-decoration: none; color:inherit;
+    border-radius: 20px;
+    padding: 5px;
 }

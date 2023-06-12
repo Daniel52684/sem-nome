@@ -24,8 +24,15 @@ body {
     position: absolute;
 }
 .link {
-    border: #000000 solid 3px;
+    border: #000000 solid 0px;
+    background: #AD0000;
+    text-decoration: none; color:inherit;
+    border-radius: 20px;
+    padding: 5px;
+}
+.link:hover {
     background: #c0a3a3;
+    transition: 0.2s all;
 }
 main {
     width: 940px;
@@ -52,7 +59,7 @@ form label, form legend {
     width:40%;
     padding: 15px 0;
     background: #AD0000;
-    color: #ffffffff;
+    color: #ffffff;
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -63,4 +70,8 @@ form label, form legend {
 .enviar:hover {
     background: #860303;
     transform: scale(1.1);
+}
+footer {
+    background: #e24242;
+    padding: 20px 0px; 
 }
