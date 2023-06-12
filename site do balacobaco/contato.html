@@ -21,16 +21,49 @@
     </header>
     <main>
         <form>
-            <label for="name">Nome e sobrenome</label>
-            <input type="text" id="name">
+            <fieldset>
+                <label for="name">Nome e sobrenome</label>
+                <input type="text" id="name" class="in-p" required>
 
-            <label for="email">Email</label>
-            <input type="text" id="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="in-p" required placeholder="Email@Dominio.com">
 
-            <label for="numero">Telefone</label>
-            <input type="text" id="numero">
+                <label for="numero">Telefone</label>
+                <input type="tel" id="numero" class="in-p" required placeholder="(XX) XXXXX-XXXX">
 
-            <input type="submit" value="Enviar">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="in-p" cols="70" rows="10" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</p>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="r-email" checked>
+                    Email
+                </label>
+                
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="r-telefone"> 
+                    Telefone
+                </label>
+                
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="r-whatsapp">
+                    WhatsApp
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário pretende vir para o restaurante?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <label class="checkbox">
+                <input type="checkbox" checked>
+                Gostaria de receber nossas novidades por email?
+            </label>
+            <input type="submit" value="Enviar" class="enviar">
         </form>
     </main>
 </body>
