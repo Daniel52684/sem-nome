@@ -57,9 +57,13 @@ body {
     display: inline;
 }
 .link {
-    border: #000000 solid 3px;
-    background: #c0a3a3;
+    border: #000000 solid 0px;
+    background: #AD0000;
     text-decoration: none; color:inherit;
     border-radius: 20px;
     padding: 5px;
+}
+.link:hover {
+    background: #c0a3a3;
+    transition: 0.4s all;
 }

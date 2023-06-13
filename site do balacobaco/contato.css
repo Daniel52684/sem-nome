@@ -44,7 +44,7 @@ form {
 form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
 }
 .in-p {
     display: block;
@@ -69,7 +69,21 @@ form label, form legend {
 }
 .enviar:hover {
     background: #860303;
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #AD0000;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 footer {
     background: #e24242;
