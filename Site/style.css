@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+
+}
+
+.logo{
+    margin: 20px 0 0 25px ;
+    
+}
+
+.cabecalho {
+
+    position: end;
+}
+.botao {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
